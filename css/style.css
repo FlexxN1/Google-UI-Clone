@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+.container {
+    font-size: 1.9rem;
+}
+.container ul {
+    margin: 0 5rem 0 0;
+    height: 10rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+}
+.container li {
+    margin: 0 1rem;
+}
+.grid {
+    height: 3.5rem;
+    width: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.photo {
+    box-shadow: 0px 0px 10px black;
+    border-radius: 49%;
+    width: 5rem;
+}
+.container a {
+    color: black;
+    text-decoration: none;
+}
+.main_container {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.main_container img {
+    align-self: center;
+    width: 45rem;
+    height: 15rem;
+    margin-bottom: 5rem;
+}
+.main_search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25rem;
+}
+.icono_placeholder {
+    box-shadow: 0px 0px 2px black;
+    font-size: 1.9rem;
+    font-family: inherit;
+    border-radius: 10rem;
+    width: 60rem;
+    height: 5rem;
+    border: none;
+    outline: none;
+    padding: 0rem 5rem;
+    background-image: url(./pics/search.png);
+    background-size: 2rem 2rem;
+    background-repeat: no-repeat;
+    background-position: 1.5rem center;
+}
+.container_p {
+    display: flex;
+    justify-content: space-around;
+}
+p {
+    font-weight: bold;
+    padding: 2rem;
+    margin-top: 6rem;
+    font-size: 1.9rem;
+}
+.footer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: 1px solid #9D9D9D;
+}
+.container_social {
+    font-size: 1.9rem;
+}
+.social {
+    list-style: none;
+    display: flex;
+    margin-top: 3rem;
+}
+.social li {
+    margin: 1rem;
+}
+.container_politica {
+    font-size: 1.9rem;
+}
+.politica {
+    list-style: none;
+    display: flex;
+    margin-top: 3rem;
+}
+.politica li {
+    margin: 1rem;
+}
+
